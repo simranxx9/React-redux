@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './index.css';
-import {BrowserRouter, Switch,Route} from 'react-router-dom';
+import {Switch} from 'react-router';
+import {BrowserRouter,Route} from 'react-router-dom';
 import Navbar from './component/layout/Navbar';
 import Dashboard from './component/dashboard/Dashboard'
 import ProjectDetails from './component/projects/ProjectDetails';
@@ -26,6 +27,5 @@ class App extends Component{
     )
   }
 }
-
 
 export default App;

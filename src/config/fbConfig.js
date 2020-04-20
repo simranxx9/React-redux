@@ -2,7 +2,7 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
- var config = {
+ var fbConfig = {
     apiKey: "AIzaSyCFyO9AtLY5f1nfT0IWfmJ3Odk8TiFPLgo",
     authDomain: "blogtrooper-842ae.firebaseapp.com",
     databaseURL: "https://blogtrooper-842ae.firebaseio.com",
@@ -13,7 +13,7 @@ import 'firebase/auth';
     measurementId: "G-DJXKTHLKBK"
   };
   // Initialize Firebase
-  firebase.initializeApp(config);
-  firebase.firestore().settings({ timestampsInSnapshots:true })
+  firebase.initializeApp(fbConfig);
+  // firebase.firestore().settings({ timestampsInSnapshots:true })
 
   export default firebase;
