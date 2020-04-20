@@ -1,6 +1,6 @@
 ## For Demo Run 
 ### Click img
-[![img]https://github.com/simranxx9/React-redux/blob/master/src/img/main_page.png](https://blogtrooper-842ae.web.app/)
+[![img](https://github.com/simranxx9/React-redux/blob/master/src/img/main_page.png)](https://blogtrooper-842ae.web.app/)
 
 ---
 
